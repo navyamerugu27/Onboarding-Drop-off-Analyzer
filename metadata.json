@@ -1,0 +1,5 @@
+{
+  "name": "Onboarding Drop-off Analyzer",
+  "description": "An AI-powered agent that connects with product analytics, identifies common friction points in onboarding journeys, clusters drop-off reasons, and recommends UX fixes to help growth teams reduce churn.",
+  "requestFramePermissions": []
+}
