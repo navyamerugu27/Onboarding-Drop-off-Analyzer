@@ -1,20 +1,48 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Onboarding Drop-off Analyzer
 
-# Run and deploy your AI Studio app
+Onboarding Drop-off Analyzer helps track and visualize where users abandon onboarding flows. It provides insights with data-driven reports, charts, and actionable metrics to improve user retention and overall experience.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1dDl3WsVUw36Uf1CY_C1Vqc-tl1ohXcz7
+* Track onboarding steps and user progress
+* Identify drop-off points in the onboarding journey
+* Visualize insights with clear charts and reports
+* Data-driven metrics to optimize user retention
+* Lightweight and easy to integrate
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+* **Python** – Core implementation
+* **Pandas / NumPy** – Data analysis
+* **Matplotlib / Seaborn** – Data visualization
+* **Flask / Streamlit** *(optional)* – Web interface for interactive dashboards
+
+## 📂 Project Structure
+
+```
+├── data/
+# Sample datasets
+├── notebooks/
+# Jupyter notebooks for analysis
+├── src/                # Core source code
+├── reports/            # Generated reports and charts
+├── requirements.txt    # Dependencies
+└── README.md           # Project documentation
+```
+
+## ⚙️ Installation
+
+2. Create and activate a virtual environment:
+   python -m venv venv
+   venv\Scripts\activate      
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+ ▶️ Usage
+2. Run the analyzer script:
+   python src/analyze.py
+
+streamlit run src/dashboard.py
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
